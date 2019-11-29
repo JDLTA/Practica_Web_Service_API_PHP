@@ -1,0 +1,11 @@
+CREATE DATABASE escuela_web;
+USE escuela_web; 
+CREATE TABLE `alumnos` (
+  `Num_Control` varchar(10) primary key NOT NULL,
+  `Nombre_Alumno` varchar(50) NOT NULL,
+  `Primer_Ap_Alumno` varchar(50) NOT NULL,
+  `Segundo_Ap_Alumno` varchar(50) NOT NULL,
+  `Edad` tinyint(4) NOT NULL,
+  `Semestre` tinyint(4) NOT NULL,
+  `Carrera` varchar(50) NOT NULL
+) ;
